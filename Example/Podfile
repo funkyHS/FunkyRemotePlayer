@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FunkyRemotePlayer_Example' do
+  pod 'FunkyRemotePlayer', :path => '../'
+
+  target 'FunkyRemotePlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
