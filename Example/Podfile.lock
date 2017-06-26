@@ -1,0 +1,16 @@
+PODS:
+  - FunkyRemotePlayer (0.1.0)
+
+DEPENDENCIES:
+  - FunkyRemotePlayer (from `../`)
+
+EXTERNAL SOURCES:
+  FunkyRemotePlayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FunkyRemotePlayer: 78220fb9741aefc62654d10639ed649627494a96
+
+PODFILE CHECKSUM: 901b4d9ede00b53120e0986de245eb759c0dd88b
+
+COCOAPODS: 1.2.1

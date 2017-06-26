@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1006DCB80C87393727DAC336CDC5DE75 /* HSRemoteAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CA029E93D8F43B4631E2C0C40ABE8511 /* HSRemoteAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		166BA72F0902876F39DC7CA833F7408D /* HSRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5F431800B7C5384836D1DA9A5EAAA5 /* HSRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23666631B6E5402B10F36422CC9BD2E4 /* HSRemoteResourceLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DCF2FB76EE24F8283A83D0B11E80A0 /* HSRemoteResourceLoaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BB6F1DB55CCC21D9233C8487C4AD8C /* Pods-FunkyRemotePlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 212B6DEC212F53757AF729AC21FA295A /* Pods-FunkyRemotePlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C642F25DE9655A5C2EA2E2741C9F02C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		372D8C95A971E1409654893D9F1148DD /* HSRemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C87E0ABA999FC5E12845B9A9E1CA4 /* HSRemoteAudioFile.m */; };
+		4290770250BE43F3ACD0920B4207EB27 /* Pods-FunkyRemotePlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80298A2C3889C7F260ECBE36A2A2AD2F /* Pods-FunkyRemotePlayer_Example-dummy.m */; };
+		4485ECF82B7DB2C3DEBA1A4D4C123B61 /* NSURL+HSURL.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD247C73C9310D0A4850093CAC0799A /* NSURL+HSURL.m */; };
+		583A8E3B2953F2287C1D39E0B9559270 /* FunkyRemotePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE49128E7ED4B944A1B15EF5D7D6BDC /* FunkyRemotePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64CF794AB235E73368AEFE42CFE13D97 /* HSRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1412E4B3E9AC8B8066B4DB097D7951 /* HSRemotePlayer.m */; };
+		7277E1545D4AD72973CFC52051575161 /* Pods-FunkyRemotePlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0EBBD34955A95EE4A0DF6684F160E /* Pods-FunkyRemotePlayer_Tests-dummy.m */; };
+		890053C6601DF1CA1F919112FC6DADF2 /* NSURL+HSURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B790A2501592A8490F23097886273C /* NSURL+HSURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90660DF95A610255335E665D14B284C4 /* HSRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5CA7828355DE9AA815B10A61230BA5 /* HSRemoteResourceLoaderDelegate.m */; };
+		B4F70250224265C0D0C07DF0DF37FD33 /* FunkyRemotePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CC1DEC023EA51B169106E5D1159FC3 /* FunkyRemotePlayer-dummy.m */; };
+		C8370E4BEE36228D9B582A4106D003E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9985B2824DFBF79602BE56671B29B06 /* Pods-FunkyRemotePlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 460DECA970B3E20A273EA94735C5CD28 /* Pods-FunkyRemotePlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D51CEEE012E7E447A08AD8639C62DD66 /* HSAudioDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E69A3FA0AF93F586953BE1FF3083EE9 /* HSAudioDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C6060368A699CFD85D0621BD77B6C4 /* HSAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D61B354F84E02FA7F57A5F48E092564 /* HSAudioDownLoader.m */; };
+		FCD64DA0E4597D3F5ADEAAE558823EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9969003D88547DD38B9DAF3B50CACC52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B433BD9556940C0CE80A2A8556B0C1;
+			remoteInfo = FunkyRemotePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D6A84A17DA61CCB96626C556251CBDC /* Pods-FunkyRemotePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyRemotePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		13A0C66F3504B77F2AA83872A9A8D837 /* Pods-FunkyRemotePlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyRemotePlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		14B790A2501592A8490F23097886273C /* NSURL+HSURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+HSURL.h"; sourceTree = "<group>"; };
+		212B6DEC212F53757AF729AC21FA295A /* Pods-FunkyRemotePlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyRemotePlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		30DF87ACCF76920E1F30E4FF6D84EC01 /* Pods-FunkyRemotePlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyRemotePlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3427ABB8D38AC32CEEF505CFB54D60E2 /* Pods-FunkyRemotePlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyRemotePlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35A03AF43982CA1FBE683ABD4EEF266B /* Pods-FunkyRemotePlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyRemotePlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		37CC1DEC023EA51B169106E5D1159FC3 /* FunkyRemotePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkyRemotePlayer-dummy.m"; sourceTree = "<group>"; };
+		3D4C8F9830AA784D0949C0FFCADABA28 /* FunkyRemotePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkyRemotePlayer.xcconfig; sourceTree = "<group>"; };
+		42DF2B9BAA60A0E72381E72DF92A1576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460DECA970B3E20A273EA94735C5CD28 /* Pods-FunkyRemotePlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyRemotePlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		4962A40405069595D3B7AFDA6445153D /* Pods-FunkyRemotePlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyRemotePlayer_Example.modulemap"; sourceTree = "<group>"; };
+		5C1CD35A00F28536AF4FB0507CD41F2D /* Pods-FunkyRemotePlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyRemotePlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		5C391C179A81681E6F41ACE41D716EBD /* FunkyRemotePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyRemotePlayer.framework; path = FunkyRemotePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66D79EA6F28452EDD58E9952606750D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67AFCA7B22310C1DFDAC03CD0943BE2E /* FunkyRemotePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkyRemotePlayer.modulemap; sourceTree = "<group>"; };
+		6C1412E4B3E9AC8B8066B4DB097D7951 /* HSRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSRemotePlayer.m; sourceTree = "<group>"; };
+		7E5F431800B7C5384836D1DA9A5EAAA5 /* HSRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSRemotePlayer.h; sourceTree = "<group>"; };
+		80298A2C3889C7F260ECBE36A2A2AD2F /* Pods-FunkyRemotePlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyRemotePlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		8E69A3FA0AF93F586953BE1FF3083EE9 /* HSAudioDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSAudioDownLoader.h; sourceTree = "<group>"; };
+		8FB4A43FD8724EFB2B876ECADB1E9C48 /* FunkyRemotePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyRemotePlayer-prefix.pch"; sourceTree = "<group>"; };
+		92C60EFA7E0EED6575FCF620DC1896CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D4904234BFBBA3BD191B980DCADF49A /* Pods-FunkyRemotePlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyRemotePlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D61B354F84E02FA7F57A5F48E092564 /* HSAudioDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSAudioDownLoader.m; sourceTree = "<group>"; };
+		AC955365040CAC49C11169E248631972 /* Pods_FunkyRemotePlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyRemotePlayer_Example.framework; path = "Pods-FunkyRemotePlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC7B7DF7008EC656596E530E85892F9 /* Pods_FunkyRemotePlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyRemotePlayer_Tests.framework; path = "Pods-FunkyRemotePlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC9AEC3ADF81A6C54BA62EBA50129D1 /* Pods-FunkyRemotePlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyRemotePlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		B37D95171CBC6BD2F608889E9A60BB00 /* Pods-FunkyRemotePlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyRemotePlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B63DD29A1F4714B99C356F2FD56E9F9A /* Pods-FunkyRemotePlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyRemotePlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C45C87E0ABA999FC5E12845B9A9E1CA4 /* HSRemoteAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSRemoteAudioFile.m; sourceTree = "<group>"; };
+		CA029E93D8F43B4631E2C0C40ABE8511 /* HSRemoteAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSRemoteAudioFile.h; sourceTree = "<group>"; };
+		CD5CA7828355DE9AA815B10A61230BA5 /* HSRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		CF336A3E1AB4EF1968F6E784EE1EA50E /* Pods-FunkyRemotePlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyRemotePlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1DCF2FB76EE24F8283A83D0B11E80A0 /* HSRemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSRemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		DDD247C73C9310D0A4850093CAC0799A /* NSURL+HSURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+HSURL.m"; sourceTree = "<group>"; };
+		EBE49128E7ED4B944A1B15EF5D7D6BDC /* FunkyRemotePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyRemotePlayer-umbrella.h"; sourceTree = "<group>"; };
+		EC4F70FA00AE4FA3046C06AB385365BE /* Pods-FunkyRemotePlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyRemotePlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		ED7BC39FF70AA42EB4B70B50314E2DE8 /* Pods-FunkyRemotePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyRemotePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C0EBBD34955A95EE4A0DF6684F160E /* Pods-FunkyRemotePlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyRemotePlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680E0BBE811FA09FC24C11F69BB61F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD64DA0E4597D3F5ADEAAE558823EAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7909F017868EFA4B3066A831B64DE880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C642F25DE9655A5C2EA2E2741C9F02C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1A728D607ED6E7493642ABF280A4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8370E4BEE36228D9B582A4106D003E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5CC2E3C200BEBE1C5E30C9272F0E66 /* FunkyRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A6249A834EB853D8D6A6BFC1077B1E37 /* FunkyRemotePlayer */,
+				F5BB9F1DE193F443D1F6F880703546B1 /* Support Files */,
+			);
+			name = FunkyRemotePlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1F05F8BAAF743D3CB582B1F5F3D8A27B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C391C179A81681E6F41ACE41D716EBD /* FunkyRemotePlayer.framework */,
+				AC955365040CAC49C11169E248631972 /* Pods_FunkyRemotePlayer_Example.framework */,
+				AEC7B7DF7008EC656596E530E85892F9 /* Pods_FunkyRemotePlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A191E0EF89E096FE7551524DBD3E84 /* Pods-FunkyRemotePlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				92C60EFA7E0EED6575FCF620DC1896CF /* Info.plist */,
+				4962A40405069595D3B7AFDA6445153D /* Pods-FunkyRemotePlayer_Example.modulemap */,
+				CF336A3E1AB4EF1968F6E784EE1EA50E /* Pods-FunkyRemotePlayer_Example-acknowledgements.markdown */,
+				B63DD29A1F4714B99C356F2FD56E9F9A /* Pods-FunkyRemotePlayer_Example-acknowledgements.plist */,
+				80298A2C3889C7F260ECBE36A2A2AD2F /* Pods-FunkyRemotePlayer_Example-dummy.m */,
+				13A0C66F3504B77F2AA83872A9A8D837 /* Pods-FunkyRemotePlayer_Example-frameworks.sh */,
+				5C1CD35A00F28536AF4FB0507CD41F2D /* Pods-FunkyRemotePlayer_Example-resources.sh */,
+				460DECA970B3E20A273EA94735C5CD28 /* Pods-FunkyRemotePlayer_Example-umbrella.h */,
+				ED7BC39FF70AA42EB4B70B50314E2DE8 /* Pods-FunkyRemotePlayer_Example.debug.xcconfig */,
+				0D6A84A17DA61CCB96626C556251CBDC /* Pods-FunkyRemotePlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-FunkyRemotePlayer_Example";
+			path = "Target Support Files/Pods-FunkyRemotePlayer_Example";
+			sourceTree = "<group>";
+		};
+		7641CBA263BC58FA4027637FFB0A5690 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A5CC2E3C200BEBE1C5E30C9272F0E66 /* FunkyRemotePlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7641CBA263BC58FA4027637FFB0A5690 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1F05F8BAAF743D3CB582B1F5F3D8A27B /* Products */,
+				C65C2758A890A1E26967308D50D639FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		957F613A56C7959E38CB5C83CBA5BB72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E69A3FA0AF93F586953BE1FF3083EE9 /* HSAudioDownLoader.h */,
+				9D61B354F84E02FA7F57A5F48E092564 /* HSAudioDownLoader.m */,
+				CA029E93D8F43B4631E2C0C40ABE8511 /* HSRemoteAudioFile.h */,
+				C45C87E0ABA999FC5E12845B9A9E1CA4 /* HSRemoteAudioFile.m */,
+				7E5F431800B7C5384836D1DA9A5EAAA5 /* HSRemotePlayer.h */,
+				6C1412E4B3E9AC8B8066B4DB097D7951 /* HSRemotePlayer.m */,
+				D1DCF2FB76EE24F8283A83D0B11E80A0 /* HSRemoteResourceLoaderDelegate.h */,
+				CD5CA7828355DE9AA815B10A61230BA5 /* HSRemoteResourceLoaderDelegate.m */,
+				14B790A2501592A8490F23097886273C /* NSURL+HSURL.h */,
+				DDD247C73C9310D0A4850093CAC0799A /* NSURL+HSURL.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A6249A834EB853D8D6A6BFC1077B1E37 /* FunkyRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				957F613A56C7959E38CB5C83CBA5BB72 /* Classes */,
+			);
+			name = FunkyRemotePlayer;
+			path = FunkyRemotePlayer;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65C2758A890A1E26967308D50D639FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A191E0EF89E096FE7551524DBD3E84 /* Pods-FunkyRemotePlayer_Example */,
+				D0B11CF5B46C0A5B28BB12FAD7E3E303 /* Pods-FunkyRemotePlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D0B11CF5B46C0A5B28BB12FAD7E3E303 /* Pods-FunkyRemotePlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42DF2B9BAA60A0E72381E72DF92A1576 /* Info.plist */,
+				AEC9AEC3ADF81A6C54BA62EBA50129D1 /* Pods-FunkyRemotePlayer_Tests.modulemap */,
+				3427ABB8D38AC32CEEF505CFB54D60E2 /* Pods-FunkyRemotePlayer_Tests-acknowledgements.markdown */,
+				B37D95171CBC6BD2F608889E9A60BB00 /* Pods-FunkyRemotePlayer_Tests-acknowledgements.plist */,
+				F1C0EBBD34955A95EE4A0DF6684F160E /* Pods-FunkyRemotePlayer_Tests-dummy.m */,
+				9D4904234BFBBA3BD191B980DCADF49A /* Pods-FunkyRemotePlayer_Tests-frameworks.sh */,
+				EC4F70FA00AE4FA3046C06AB385365BE /* Pods-FunkyRemotePlayer_Tests-resources.sh */,
+				212B6DEC212F53757AF729AC21FA295A /* Pods-FunkyRemotePlayer_Tests-umbrella.h */,
+				35A03AF43982CA1FBE683ABD4EEF266B /* Pods-FunkyRemotePlayer_Tests.debug.xcconfig */,
+				30DF87ACCF76920E1F30E4FF6D84EC01 /* Pods-FunkyRemotePlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-FunkyRemotePlayer_Tests";
+			path = "Target Support Files/Pods-FunkyRemotePlayer_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5BB9F1DE193F443D1F6F880703546B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67AFCA7B22310C1DFDAC03CD0943BE2E /* FunkyRemotePlayer.modulemap */,
+				3D4C8F9830AA784D0949C0FFCADABA28 /* FunkyRemotePlayer.xcconfig */,
+				37CC1DEC023EA51B169106E5D1159FC3 /* FunkyRemotePlayer-dummy.m */,
+				8FB4A43FD8724EFB2B876ECADB1E9C48 /* FunkyRemotePlayer-prefix.pch */,
+				EBE49128E7ED4B944A1B15EF5D7D6BDC /* FunkyRemotePlayer-umbrella.h */,
+				66D79EA6F28452EDD58E9952606750D7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FunkyRemotePlayer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		203DC2212664216794DADC1ECC8920F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583A8E3B2953F2287C1D39E0B9559270 /* FunkyRemotePlayer-umbrella.h in Headers */,
+				D51CEEE012E7E447A08AD8639C62DD66 /* HSAudioDownLoader.h in Headers */,
+				1006DCB80C87393727DAC336CDC5DE75 /* HSRemoteAudioFile.h in Headers */,
+				166BA72F0902876F39DC7CA833F7408D /* HSRemotePlayer.h in Headers */,
+				23666631B6E5402B10F36422CC9BD2E4 /* HSRemoteResourceLoaderDelegate.h in Headers */,
+				890053C6601DF1CA1F919112FC6DADF2 /* NSURL+HSURL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7318FA83F6FA64DDF6849A2EB6FBBF8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9985B2824DFBF79602BE56671B29B06 /* Pods-FunkyRemotePlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45F78D9DA0191B23E99AA52FF58EA71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB6F1DB55CCC21D9233C8487C4AD8C /* Pods-FunkyRemotePlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17B433BD9556940C0CE80A2A8556B0C1 /* FunkyRemotePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F83F4821D49AEBAD5909C7653CDBAD /* Build configuration list for PBXNativeTarget "FunkyRemotePlayer" */;
+			buildPhases = (
+				84C5E5431FCB63425EF572086C8AA87F /* Sources */,
+				CA1A728D607ED6E7493642ABF280A4B4 /* Frameworks */,
+				203DC2212664216794DADC1ECC8920F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkyRemotePlayer;
+			productName = FunkyRemotePlayer;
+			productReference = 5C391C179A81681E6F41ACE41D716EBD /* FunkyRemotePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E671F30B79CD8E2BF04F445E7A7FDE4D /* Pods-FunkyRemotePlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99180F67CBC14589231D7F15133D762 /* Build configuration list for PBXNativeTarget "Pods-FunkyRemotePlayer_Example" */;
+			buildPhases = (
+				1C6015231C08C7E4183C46C63A7B942C /* Sources */,
+				7909F017868EFA4B3066A831B64DE880 /* Frameworks */,
+				7318FA83F6FA64DDF6849A2EB6FBBF8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9103A1847C5B2E5138248036461E78C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FunkyRemotePlayer_Example";
+			productName = "Pods-FunkyRemotePlayer_Example";
+			productReference = AC955365040CAC49C11169E248631972 /* Pods_FunkyRemotePlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC5879A483A23E29FB24F387B844DB87 /* Pods-FunkyRemotePlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B389D4CE37BBA7947FD3745BAE8D38 /* Build configuration list for PBXNativeTarget "Pods-FunkyRemotePlayer_Tests" */;
+			buildPhases = (
+				C36FE2360AB8DB7DAAEDDED25F5B1EB4 /* Sources */,
+				680E0BBE811FA09FC24C11F69BB61F6D /* Frameworks */,
+				D45F78D9DA0191B23E99AA52FF58EA71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FunkyRemotePlayer_Tests";
+			productName = "Pods-FunkyRemotePlayer_Tests";
+			productReference = AEC7B7DF7008EC656596E530E85892F9 /* Pods_FunkyRemotePlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1F05F8BAAF743D3CB582B1F5F3D8A27B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B433BD9556940C0CE80A2A8556B0C1 /* FunkyRemotePlayer */,
+				E671F30B79CD8E2BF04F445E7A7FDE4D /* Pods-FunkyRemotePlayer_Example */,
+				FC5879A483A23E29FB24F387B844DB87 /* Pods-FunkyRemotePlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6015231C08C7E4183C46C63A7B942C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290770250BE43F3ACD0920B4207EB27 /* Pods-FunkyRemotePlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C5E5431FCB63425EF572086C8AA87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F70250224265C0D0C07DF0DF37FD33 /* FunkyRemotePlayer-dummy.m in Sources */,
+				F1C6060368A699CFD85D0621BD77B6C4 /* HSAudioDownLoader.m in Sources */,
+				372D8C95A971E1409654893D9F1148DD /* HSRemoteAudioFile.m in Sources */,
+				64CF794AB235E73368AEFE42CFE13D97 /* HSRemotePlayer.m in Sources */,
+				90660DF95A610255335E665D14B284C4 /* HSRemoteResourceLoaderDelegate.m in Sources */,
+				4485ECF82B7DB2C3DEBA1A4D4C123B61 /* NSURL+HSURL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36FE2360AB8DB7DAAEDDED25F5B1EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277E1545D4AD72973CFC52051575161 /* Pods-FunkyRemotePlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9103A1847C5B2E5138248036461E78C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyRemotePlayer;
+			target = 17B433BD9556940C0CE80A2A8556B0C1 /* FunkyRemotePlayer */;
+			targetProxy = 9969003D88547DD38B9DAF3B50CACC52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12212E235E26136BCBEBE7715622BA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4C8F9830AA784D0949C0FFCADABA28 /* FunkyRemotePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyRemotePlayer/FunkyRemotePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyRemotePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyRemotePlayer/FunkyRemotePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FunkyRemotePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		540C2CAFB3E7FF4C7E697B3B7DA5C3BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7BC39FF70AA42EB4B70B50314E2DE8 /* Pods-FunkyRemotePlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Example/Pods-FunkyRemotePlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyRemotePlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673DF5217B8BEB84686537A4837E1064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DF87ACCF76920E1F30E4FF6D84EC01 /* Pods-FunkyRemotePlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Tests/Pods-FunkyRemotePlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyRemotePlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F84DBA2C9B5FA00E24F1D469DE65B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6A84A17DA61CCB96626C556251CBDC /* Pods-FunkyRemotePlayer_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Example/Pods-FunkyRemotePlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyRemotePlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A620330978D592591119D2543363459D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4C8F9830AA784D0949C0FFCADABA28 /* FunkyRemotePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyRemotePlayer/FunkyRemotePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyRemotePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyRemotePlayer/FunkyRemotePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkyRemotePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDD8ADB25709F9A3543C98DEB0DC75A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A03AF43982CA1FBE683ABD4EEF266B /* Pods-FunkyRemotePlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyRemotePlayer_Tests/Pods-FunkyRemotePlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyRemotePlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F83F4821D49AEBAD5909C7653CDBAD /* Build configuration list for PBXNativeTarget "FunkyRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12212E235E26136BCBEBE7715622BA18 /* Debug */,
+				A620330978D592591119D2543363459D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B389D4CE37BBA7947FD3745BAE8D38 /* Build configuration list for PBXNativeTarget "Pods-FunkyRemotePlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD8ADB25709F9A3543C98DEB0DC75A7 /* Debug */,
+				673DF5217B8BEB84686537A4837E1064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99180F67CBC14589231D7F15133D762 /* Build configuration list for PBXNativeTarget "Pods-FunkyRemotePlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540C2CAFB3E7FF4C7E697B3B7DA5C3BB /* Debug */,
+				9F84DBA2C9B5FA00E24F1D469DE65B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
